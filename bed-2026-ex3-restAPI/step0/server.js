@@ -12,5 +12,10 @@ app.get('/api/v1/whishper/:id', (req, res) =>{
     res.json([])
 });
 
-app.post
-# continue in Picture
+app.post('/api/v1/whishper', (req, res) =>{
+    res.status(201).json(req.body);
+});
+
+app.put('/api/v1/whishper/:id', (req, res) =>{
+    res.status(200);
+});
