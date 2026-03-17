@@ -1,7 +1,7 @@
 import {writeFileSync} from 'node:fs';
 import { join } from 'node:path';
 
-import {getAll, getById, create, updateById, deleteId} from '../store.js';
+import {getAll, getById, create, updateById, deleteId} from '../../../bed-2026-ex3-restAPI/step0/store.js';
 
 
 const dbPath = join(process.cwd(),'db.json');

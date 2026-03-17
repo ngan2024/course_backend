@@ -1,7 +1,7 @@
 import http from "node:http";
 import { converter } from "./converter.js"
 
-const port = (process.argv[2] || process.env.PORT || 3000);
+const port = (process.argv[2] || process.env.PORT || 3000); //if run node index.js 5000, ther port=5000
 
 const getQueryParameter = (req, name) => {
 const baseURL = req.protocol + '://' + req.headers.host + '/';

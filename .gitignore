@@ -1,1 +1,4 @@
 node_modules/
+coverage/
+dist/
+bed-2026-ex3-rest-thelo_opettaja/
